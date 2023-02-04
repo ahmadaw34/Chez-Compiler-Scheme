@@ -6,6 +6,6 @@ How to compile and run code in Scheme:
 3) utop> #use "compiler.ml";;
 4) utop> Code_Generation.compile_scheme_string "testing/goo.asm" "<Scheme-Code>";;
 5) At this point, I have a file testing/goo.asm that I need to assemble. starting new terminal and the makefile does the rest, I type:
-       make goo
-       ./goo
-       make clean
+6) make goo
+7) ./goo
+8) make clean
